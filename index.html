@@ -7,11 +7,67 @@
     <!-- Carousel -->
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- My style -->
     <link rel="stylesheet" href="css/style.css">
     <title>Corporate</title>
 </head>
 <body>
+    <!-- navbar -->
+    <nav class="flex flex-col">
+        <div class="flex flex-row justify-between p-4 h-20">
+            <img src="img/logo.svg" class="h-10" alt="">
+            <div class="text-2xl text-gray-800 font-medium mt-1 lg:hidden">
+                <a href="" class=""><i class="fa-solid fa-user mr-4 "></i></a>
+                <i class="fa-solid fa-bars cursor-pointer"  id="bar"></i>
+                <i class="fa-solid fa-xmark hidden cursor-pointer" id="close"></i> 
+            </div>
+            <div class="hidden font-normal lg_nav lg:block pt-3">
+                <a href="">Home</a>
+                <a href="">Finds jobs</a>
+                <a href="">Employers</a></li>
+                <a href="">Candidates</a>
+                <a href="">Blog</a>
+                <a href="">Pages</a>
+            </div>
+
+            <div class="hidden font-medium text-white lg_log lg:block p-3"> 
+                <a href="" class="text-gray-600 mr-6">Upload Your Cv</a>
+                <a href="" class="log_reg rounded-md mr-4">Login/Register</a>
+                <a href="" class="rounded-md p_job">Job Post</a>
+            </div>
+        </div>
+        <!-- Mobile and Tablet view (768px) -->
+        <div class="text-center menu hidden bg-gray-900 text-gray-400 capitalise" id="mobile_nav" id="close_nav">
+            <h4 class="pt-4 menu_border">Menu</h4>
+            <div class="py-5 p-4 text-left capitalise flex flex-col">
+                <a href="">Home</a>
+                <a href="">Finds jobs</a>
+                <a href="">Employers</a></li>
+                <a href="">Candidates</a>
+                <a href="">Blog</a>
+                <a href="">Pages</a>
+
+               <button class="rounded-md text-white mt-14">Job Post</button>
+               <h6 class="mt-6 text-lg font-medium">Call us</h6>
+               <h6 class="text-lg font-medium text-white">123 456 7890</h6>
+               <p class="mt-4 text-sm">329 Queensberry Street, North Melbourne VIC</p>
+               <p class="mt-2 text-sm">3051, Australia.</p>
+            </div>
+        </div>
+    </nav>
     
+    <!-- mobile Nav -->
+    <section class="bg-contain bg-no-repeat bg-center banner" style="background-image: url(img/shape-1.png)">
+
+    </section>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

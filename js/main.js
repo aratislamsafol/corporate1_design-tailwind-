@@ -1,7 +1,17 @@
 $(document).ready(function(){
     $('#bar').click(function(){
     $('#mobile_nav').slideToggle(400);
+    $('#bar').hide();
+    $('#close').show();
     });
+});
+
+$(document).ready(function(){
+  $('#close').click(function(){
+  $('#mobile_nav').slideToggle(400);
+  $('#bar').show();
+  $('#close').hide();
+  });
 });
 
 filterSelection("neurology")
