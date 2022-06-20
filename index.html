@@ -17,7 +17,7 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="flex flex-col">
+    <nav class="bg-white sticky top-0 z-20 flex flex-col">
         <div class="flex flex-row justify-between p-4 h-20">
             <img src="img/logo.svg" class="h-10" alt="">
             <div class="text-2xl text-gray-800 font-medium mt-1 lg:hidden">
@@ -34,9 +34,16 @@
                 <a href="">Pages</a>
             </div>
 
-            <div class="hidden font-medium text-white lg_log lg:block p-3"> 
-                <a href="" class="text-gray-600 mr-6">Upload Your Cv</a>
-                <a href="" class="log_reg rounded-md mr-4">Login/Register</a>
+            <div class="hidden font-medium text-white lg_log lg:block xl:hidden p-3"> 
+                <!-- <a href="" class="text-gray-600">Upload Your Cv</a> -->
+                <a href="" class="log_reg rounded-md">Login/Register</a>
+                <a href="" class="rounded-md p_job">Job Post</a>
+            </div>
+
+            <!-- Xl Devices(1280) -->
+            <div class="hidden font-medium text-white lg_log xl:block p-3"> 
+                <a href="" class="text-gray-600">Upload Your Cv</a>
+                <a href="" class="log_reg rounded-md">Login/Register</a>
                 <a href="" class="rounded-md p_job">Job Post</a>
             </div>
         </div>
@@ -60,10 +67,88 @@
         </div>
     </nav>
     
-    <!-- mobile Nav -->
-    <section class="bg-contain bg-no-repeat bg-center banner" style="background-image: url(img/shape-1.png)">
+    <!-- Banner -->
+    <div class="small_banner w-full lg:hidden">
+        <div class="text-gray-800 font-medium flex flex-col justify-center banner_details gap-3">
+            <h3 class="text-3xl md:text-5xl">There Are 93,178 Postings Here For you! </h3>
+            <p class="mt-6 text-gray-500">Find Jobs, Employment & Career Opportunities</p>
 
-    </section>
+            <form action="" enctype="multipart/form-data" class="mt-2 flex flex-col gap-4">
+              
+                <div class="flex flex-row gap-2 p-6 text-gray-500 bg-white w-full rounded-md">
+                    <i class="fa-solid text-md fa-magnifying-glass mt-1"></i>
+                    <input type="text" class=" text-md font-normal" placeholder="Job title, Keyword or Company">
+                </div>
+
+                <div class="flex flex-row gap-2 p-6 text-gray-500 bg-white w-full rounded-md">
+                    <i class="fa-solid fa-location-dot mt-1"></i>
+                    <input type="text" class=" text-md font-normal" placeholder="City or postcode">
+                </div>
+
+                <button class="rounded-md p-4 text-gray-100">Find Jobs</button>
+            </form>
+
+            <div class="flex flex-col md:flex-row md:gap-4 mt-20">
+                <div>
+                    <h3 class="text-gray-800">Popular Searches : </h3>
+                </div>
+                
+                <div class="inline text-gray-500">
+                    <a href="">Designer,</a>
+                    <a href="">Developer,</a>
+                    <a href="">Web,</a>
+                    <a href="">IOS,</a>
+                    <a href="">PHP,</a>
+                    <a href="">Senior,</a>
+                    <a href="">Engineer,</a>
+                </div>
+               
+            </div>
+
+        </div>
+    </div>
+    <!-- lg -->
+    <div class="banner hidden lg:block z-10">
+        <div class="absolute banner_d text-gray-900 hidden lg:block">
+            <h3 class="text-4xl leading-normal font-medium">There Are 93,178 Postings Here For you!</h3>
+            <p class="mt-10 text-gray-600 font-medium">Find Jobs, Employment & Career Opportunities</p>
+
+            <form action="" enctype="multipart/form-data" class="mt-6">   
+
+                <div class="bg-white grid grid-cols-12 items-center rounded-md">
+                    <div class="col-span-5 p-4 flex">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="border-r text-sm font-normal" placeholder="Job title, Keyword or Company">
+                    </div>
+                    <div class="col-span-4 p-4 flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" class="ml-2 text-sm font-normal" placeholder="City or postcode">
+                    </div>
+
+                    <div class="col-span-3 relative">
+                        <button class="absolute font-medium w-full h-full text-gray-100">Find Jobs</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="mt-6 text-gray-700 font-medium">
+                <h3 class="inline">Popular Searches : </h3>
+               
+                    <a href="">Designer,</a>
+                    <a href="">Developer,</a>
+                    <a href="">Web,</a>
+                    <a href="">IOS,</a>
+                    <a href="">PHP,</a>
+                    <a href="">Senior,</a>
+                    <a href="">Engineer,</a>
+            </div>
+
+       </div>
+        
+        <div class="lg_image hidden lg:block">
+            <img src="img/banner-img-1.png" class="w-full h-full" alt="">
+        </div>
+    </div>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/owl.carousel.js"></script>
