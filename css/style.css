@@ -187,6 +187,143 @@
         
     }
 
+    /* Job */
+    .job h3,.testimonial h3{
+        font-size: 27px;
+    }
+
+    .job_hover a,.job_hover i{
+        transition: .4s;
+    }
+
+    .job_hover:hover a{
+       color: #1967D2;
+       transition: .4s;
+    }
+
+    .job_hover:hover i{
+        background-color: #1967D2;
+        transition: .4s;
+    }
+
+    .job_hover:hover i{
+        color:rgba(255, 255, 255, 0.918);
+        transition: .4s;
+    }
+
+    .job_feature{
+        transition: .2s;
+    }
+
+    .job_feature a:hover{
+        color:#1967D2;
+        transition:.2s;
+    }
+
+    /* App section */
+    .app_section{
+        padding: 100px 0 30px;
+    }
+
+    .auto_container{
+        position: static;
+        max-width: 1310px;
+        padding: 0px 15px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .bg_shape{
+        position: absolute;
+        left: -30px;
+        top: 0;
+        right: -10px;
+        height: 100%;
+        background-image: url(/img/shape-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .auto_container .image{
+        padding-top: 55px;
+        margin-bottom: 0;
+    }
+
+    .inner_column{
+        position: relative;
+        padding: 100px 0;
+        padding-left: 30px;
+    }
+
+    /* Calling section */
+    .rec_section{
+        padding: 10px;
+    }
+
+    .rec_bg{
+        background-color: #EFF4FC;
+        width: 100%;
+        max-width: 1350px;
+        position: static;
+        overflow: hidden;
+        padding: 10%;
+    }
+
+    /* .rec_bg .rec_image{ */
+        /* background-image: url(/img/image-1.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        height: 100%; */
+        /* width: 150px; */
+    /* } */
+
+    /* Footer */
+      
+
+    .list li {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #696969;
+    margin-bottom: 15px;
+    }
+    
+    .list li a {
+    display: inline-block;
+    color: #696969;
+    transition: all 200ms ease;
+    }
+    
+    .list li:before {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 2px;
+    width: 0px;
+    content: "";
+    border-bottom: 2px solid #1967D2;
+    transition: all 300ms ease;
+    }
+    
+    .list li:hover:before {
+    width: 15px;
+    }
+    
+    .list li:hover a {
+    transform: translateX(25px);
+    color: #1967D2;
+    }
+    .foot_social a{
+        transition: .30s;
+    }
+    .foot_social a:hover{
+        color:rgb(185, 185, 185);
+        transition: .30s;
+    }
 
 
-   
+    

@@ -11,13 +11,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- swiper bundle -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
     <!-- My style -->
     <link rel="stylesheet" href="css/style.css">
     <title>Corporate</title>
 </head>
 <body>
     <!-- navbar -->
-    <nav class="bg-white sticky top-0 z-20 flex flex-col">
+    <nav class="bg-white sticky top-0 z-50 flex flex-col">
         <div class="flex flex-row justify-between p-4 h-20">
             <img src="img/logo.svg" class="h-10" alt="">
             <div class="text-2xl text-gray-800 font-medium mt-1 lg:hidden">
@@ -150,9 +153,1003 @@
         </div>
     </div>
 
+    <!-- Job Category -->
+    <div class="job flex flex-col py-10 p-1 text-center border-b">
+        <h3 class="font-medium text-gray-900">Popular Job Categories</h3>
+        <span class="text-gray-500 pt-3 text-sm">2022 jobs live - 293 added today.</span>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-left mt-10 p-4">
+            
+            <div class="flex border rounded-md job_hover">
+                <div class="p-5 text-4xl  text-blue-500">
+                    <i class="fa-solid fa-hand-holding-dollar rounded-md p-4 bg-gray-200"></i>
+                </div>
+
+                <div class="p-5 pl-0">
+                    <a href="" class="font-medium text-gray-900 text-md">Accounting / Finance</a>
+                    <p>(2 open position)</p>
+                </div>
+            </div>
+
+            <div class="flex border rounded-md job_hover">
+                <div class="p-5 text-4xl  text-blue-500">
+                    <i class="fa-solid fa-bullhorn rounded-md p-4 bg-gray-200"></i>
+                   
+                </div>
+
+                <div class="p-5 pl-0">
+                    <a href="" class="font-medium text-gray-900 text-md">Marketing</a>
+                    <p>(2 open position)</p>
+                </div>
+            </div>
+
+            <div class="flex border rounded-md job_hover">
+                <div class="p-5 text-4xl  text-blue-500">
+                    <i class="fa-solid fa-compass-drafting rounded-md p-4 bg-gray-200"></i>
+                   
+                </div>
+
+                <div class="p-5 pl-0">
+                    <a href="" class="font-medium text-gray-900 text-md">Design</a>
+                    <p>(43 open position)</p>
+                </div>
+            </div>
+
+            <div class="flex border rounded-md job_hover">
+                <div class="p-5 text-4xl  text-blue-500">
+                    <i class="fa-brands fa-connectdevelop rounded-md p-4 bg-gray-200"></i>
+                </div>
+
+                <div class="p-5 pl-0">
+                    <a href="" class="font-medium text-gray-900 text-md">Development</a>
+                    <p>(12 open position)</p>
+                </div>
+            </div>
+
+           
+            <div class="flex border rounded-md job_hover">
+                <div class="p-5 text-4xl  text-blue-500">
+                    <i class="fa-brands fa-watchman-monitoring rounded-md p-4 bg-gray-200"></i>
+                </div>
+
+                <div class="p-5 pl-0">
+                    <a href="" class="font-medium text-gray-900 text-md">Human Resource</a>
+                    <p>(56 open position)</p>
+                </div>
+            </div>
+
+
+            <div class="flex border rounded-md job_hover">
+                <div class="p-5 text-4xl  text-blue-500">
+                  
+                    <i class="fa-solid fa-plane-circle-check rounded-md p-4 bg-gray-200"></i>
+                </div>
+               
+                <div class="p-5 pl-0">
+                    <a href="" class="font-medium text-gray-900 text-md">Project Management</a>
+                    <p>(2 open position)</p>
+                </div>
+            </div>
+
+            <div class="flex border rounded-md job_hover">
+                <div class="p-5 text-4xl  text-blue-500">
+                  
+                    <i class="fa-brands fa-servicestack rounded-md p-4 bg-gray-200"></i>
+                </div>
+               
+                <div class="p-5 pl-0">
+                    <a href="" class="font-medium text-gray-900 text-md">Customer Service</a>
+                    <p>(2 open position)</p>
+                </div>
+            </div>
+
+            <div class="flex border rounded-md job_hover">
+                <div class="p-5 text-4xl  text-blue-500">
+                  
+                    <i class="fa-solid fa-briefcase-medical rounded-md p-4 bg-gray-200"></i>
+                </div>
+               
+                <div class="p-5 pl-0">
+                    <a href="" class="font-medium text-gray-900 text-md">Health and Care</a>
+                    <p>(25 open position)</p>
+                </div>
+            </div>
+
+            <div class="flex border rounded-md job_hover">
+                <div class="p-5 text-4xl  text-blue-500">
+                  
+                    <i class="fa-solid fa-car rounded-md p-4 bg-gray-200"></i>
+                </div>
+               
+                <div class="p-5 pl-0">
+                    <a href="" class="font-medium text-gray-900 text-md">Health and Care</a>
+                    <p>(92 open position)</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+     <!-- Job Feature -->
+     <div class="job flex flex-col py-10 p-1 text-center border-b">
+        <h3 class="font-medium text-gray-900">Featured Jobs</h3>
+        <span class="text-gray-500 pt-3 text-sm">Know your worth and find the job that qualify your life</span>
+
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 text-left mt-10 p-4">
+            <div class="border rounded-md">
+                <div class="flex job_feature">
+                    <div class="p-5 text-4xl text-blue-500">
+                       <img src="img/1-1.png" alt="">
+                    </div>
+    
+                    <div class="p-5 pl-0">
+                        <a href="" class="font-medium text-gray-900 text-md">Software Engineer (Android), Libraries</a>
+                    
+                        <div class="md:hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="md:block hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="py-4 md:block hidden">
+                            <span class="mr-2 text-blue-400 rounded-xl px-4 p-1 bg-blue-100">Full Time</span>
+                            <span class="mr-2 text-green-400 rounded-xl px-4 p-1 bg-green-100">Private</span>
+                            <span class="text-orange-400 rounded-xl px-4 p-1 bg-orange-100">Urgent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pl-4 pb-4 md:hidden">
+                    <span class="mr-2 text-blue-400 rounded-xl px-3 p-1 bg-blue-100">Full Time</span>
+                    <span class="mr-2 text-green-400 rounded-xl px-3 p-1 bg-green-100">Private</span>
+                    <span class="text-orange-400 rounded-xl px-3 p-1 bg-orange-100">Urgent</span>
+                </div>
+            </div>
+
+            <div class="border rounded-md">
+                <div class="flex job_feature">
+                    <div class="p-5 text-4xl text-blue-500">
+                       <img src="img/1-2.png" alt="">
+                    </div>
+    
+                    <div class="p-5 pl-0">
+                        <a href="" class="font-medium text-gray-900 text-md">Software Engineer (Android), Libraries</a>
+                    
+                        <div class="md:hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="md:block hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="py-4 md:block hidden">
+                            <span class="mr-2 text-blue-400 rounded-xl px-4 p-1 bg-blue-100">Full Time</span>
+                            <span class="mr-2 text-green-400 rounded-xl px-4 p-1 bg-green-100">Private</span>
+                            <span class="text-orange-400 rounded-xl px-4 p-1 bg-orange-100">Urgent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pl-4 pb-4 md:hidden">
+                    <span class="mr-2 text-blue-400 rounded-xl px-3 p-1 bg-blue-100">Full Time</span>
+                    <span class="mr-2 text-green-400 rounded-xl px-3 p-1 bg-green-100">Private</span>
+                    <span class="text-orange-400 rounded-xl px-3 p-1 bg-orange-100">Urgent</span>
+                </div>
+            </div>
+
+            <div class="border rounded-md">
+                <div class="flex job_feature">
+                    <div class="p-5 text-4xl text-blue-500">
+                       <img src="img/1-3.png" alt="">
+                    </div>
+    
+                    <div class="p-5 pl-0">
+                        <a href="" class="font-medium text-gray-900 text-md">Software Engineer (Android), Libraries</a>
+                    
+                        <div class="md:hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="md:block hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="py-4 md:block hidden">
+                            <span class="mr-2 text-blue-400 rounded-xl px-4 p-1 bg-blue-100">Full Time</span>
+                            <span class="mr-2 text-green-400 rounded-xl px-4 p-1 bg-green-100">Private</span>
+                            <span class="text-orange-400 rounded-xl px-4 p-1 bg-orange-100">Urgent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pl-4 pb-4 md:hidden">
+                    <span class="mr-2 text-blue-400 rounded-xl px-3 p-1 bg-blue-100">Full Time</span>
+                    <span class="mr-2 text-green-400 rounded-xl px-3 p-1 bg-green-100">Private</span>
+                    <span class="text-orange-400 rounded-xl px-3 p-1 bg-orange-100">Urgent</span>
+                </div>
+            </div>
+
+            <div class="border rounded-md">
+                <div class="flex job_feature">
+                    <div class="p-5 text-4xl text-blue-500">
+                       <img src="img/1-4.png" alt="">
+                    </div>
+    
+                    <div class="p-5 pl-0">
+                        <a href="" class="font-medium text-gray-900 text-md">Software Engineer (Android), Libraries</a>
+                    
+                        <div class="md:hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="md:block hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="py-4 md:block hidden">
+                            <span class="mr-2 text-blue-400 rounded-xl px-4 p-1 bg-blue-100">Full Time</span>
+                            <span class="mr-2 text-green-400 rounded-xl px-4 p-1 bg-green-100">Private</span>
+                            <span class="text-orange-400 rounded-xl px-4 p-1 bg-orange-100">Urgent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pl-4 pb-4 md:hidden">
+                    <span class="mr-2 text-blue-400 rounded-xl px-3 p-1 bg-blue-100">Full Time</span>
+                    <span class="mr-2 text-green-400 rounded-xl px-3 p-1 bg-green-100">Private</span>
+                    <span class="text-orange-400 rounded-xl px-3 p-1 bg-orange-100">Urgent</span>
+                </div>
+            </div>
+
+           
+            <div class="border rounded-md">
+                <div class="flex job_feature">
+                    <div class="p-5 text-4xl text-blue-500">
+                       <img src="img/1-5.png" alt="">
+                    </div>
+    
+                    <div class="p-5 pl-0">
+                        <a href="" class="font-medium text-gray-900 text-md">Software Engineer (Android), Libraries</a>
+                    
+                        <div class="md:hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="md:block hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="py-4 md:block hidden">
+                            <span class="mr-2 text-blue-400 rounded-xl px-4 p-1 bg-blue-100">Full Time</span>
+                            <span class="mr-2 text-green-400 rounded-xl px-4 p-1 bg-green-100">Private</span>
+                            <span class="text-orange-400 rounded-xl px-4 p-1 bg-orange-100">Urgent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pl-4 pb-4 md:hidden">
+                    <span class="mr-2 text-blue-400 rounded-xl px-3 p-1 bg-blue-100">Full Time</span>
+                    <span class="mr-2 text-green-400 rounded-xl px-3 p-1 bg-green-100">Private</span>
+                    <span class="text-orange-400 rounded-xl px-3 p-1 bg-orange-100">Urgent</span>
+                </div>
+            </div>
+
+            <div class="border rounded-md">
+                <div class="flex job_feature">
+                    <div class="p-5 text-4xl text-blue-500">
+                       <img src="img/1-6.png" alt="">
+                    </div>
+    
+                    <div class="p-5 pl-0">
+                        <a href="" class="font-medium text-gray-900 text-md">Software Engineer (Android), Libraries</a>
+                    
+                        <div class="md:hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="md:block inline hidden text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="md:block hidden">
+                            <span class="text-gray-600 text-sm mt-2"><i class="fa-solid fa-briefcase"></i>&nbsp Segment</span>
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-location-dot"></i>&nbsp London, UK</span>
+                            <!-- For md,LG -->
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-clock"></i>&nbsp 11 hours ago</span>
+
+                            <span class="text-gray-600 text-sm ml-6 mt-2"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp 35k - 45k</span>
+                        </div> 
+
+                        <div class="py-4 md:block hidden">
+                            <span class="mr-2 text-blue-400 rounded-xl px-4 p-1 bg-blue-100">Full Time</span>
+                            <span class="mr-2 text-green-400 rounded-xl px-4 p-1 bg-green-100">Private</span>
+                            <span class="text-orange-400 rounded-xl px-4 p-1 bg-orange-100">Urgent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pl-4 pb-4 md:hidden">
+                    <span class="mr-2 text-blue-400 rounded-xl px-3 p-1 bg-blue-100">Full Time</span>
+                    <span class="mr-2 text-green-400 rounded-xl px-3 p-1 bg-green-100">Private</span>
+                    <span class="text-orange-400 rounded-xl px-3 p-1 bg-orange-100">Urgent</span>
+                </div>
+            </div>
+        </div>
+
+        <a class="p-4 mt-4 bg-blue-600 w-40 m-auto rounded-lg text-white">Load More Listing</a>
+
+    </div>
+
+    <!-- Testimonial -->
+    <!-- Swiper -->
+    <div class="testimonial pb-16 bg-gray-100">
+        <div class="text-center py-10  p-1">
+            <h3 class="font-medium text-gray-900">Testimonials From Our Customers</h3>
+            <span class="text-gray-500 pt-3 text-sm">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor</span>
+        </div>
+        
+        <div class="container mx-auto swiper mySwiper">
+            <div class="mb-16 swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="flex flex-col  p-3">
+                    <div class="flex flex-row justify-between">
+                        <div>
+                            <h3 class="text-xl font-medium text-blue-500">Awesome Quality</h3>
+                        </div>
+    
+                        <div>
+                            <h3 class="font-medium text-gray-400 text-3xl"><i class="fa-solid fa-quote-right"></i></h3>
+                        </div>
+                    </div>
+    
+                    <div class="text-gray-500">
+                        Without JobHunt i’d be homeless, they found me a job and got me sorted out quickly with everything! Can’t quite… The Mitech team works really hard to ensure high level of quality.
+                    </div>
+    
+                    <div class="mt-12 flex gap-4">
+                        <img src="img/testi-thumb-2.png" class="" alt="">
+                        <div class="flex flex-col text-gray-500 mt-3">
+                            <h3 class="text-xl font-medium ">Khan Kamrul</h3>
+                            <span>Consultant</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex flex-col  p-3">
+                        <div class="flex flex-row justify-between">
+                            <div>
+                                <h3 class="text-xl font-medium text-blue-500">Good Theme</h3>
+                            </div>
+    
+                            <div>
+                                <h3 class="font-medium text-gray-400 text-3xl"><i class="fa-solid fa-quote-right"></i></h3>
+                            </div>
+                        </div>
+    
+                        <div class="text-gray-500">
+                            Without JobHunt i’d be homeless, they found me a job and got me sorted out quickly with everything! Can’t quite… The Mitech team works really hard to ensure high level of quality.
+                        </div>
+    
+                        <div class="mt-12 flex gap-4">
+                            <img src="img/testi-thumb-3.png" class="" alt="">
+                            <div class="flex flex-col text-gray-500 mt-3">
+                                <h3 class="text-xl font-medium ">Khan Kamrul</h3>
+                                <span>Consultant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="flex flex-col  p-3">
+                        <div class="flex flex-row justify-between">
+                            <div>
+                                <h3 class="text-xl font-medium text-blue-500">Great Design!</h3>
+                            </div>
+    
+                            <div>
+                                <h3 class="font-medium text-gray-400 text-3xl"><i class="fa-solid fa-quote-right"></i></h3>
+                            </div>
+                        </div>
+    
+                        <div class="text-gray-500">
+                            Without JobHunt i’d be homeless, they found me a job and got me sorted out quickly with everything! Can’t quite… The Mitech team works really hard to ensure high level of quality.
+                        </div>
+    
+                        <div class="mt-12 flex gap-4">
+                            <img src="img/testi-thumb-1.png" class="" alt="">
+                            <div class="flex flex-col text-gray-500 mt-3">
+                                <h3 class="text-xl font-medium ">Khan Kamrul</h3>
+                                <span>Consultant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="flex flex-col  p-3">
+                        <div class="flex flex-row justify-between">
+                            <div>
+                                <h3 class="text-xl font-medium text-blue-500">Great Quality</h3>
+                            </div>
+    
+                            <div>
+                                <h3 class="font-medium text-gray-400 text-3xl"><i class="fa-solid fa-quote-right"></i></h3>
+                            </div>
+                        </div>
+    
+                        <div class="text-gray-500">
+                            Without JobHunt i’d be homeless, they found me a job and got me sorted out quickly with everything! Can’t quite… The Mitech team works really hard to ensure high level of quality.
+                        </div>
+    
+                        <div class="mt-12 flex gap-4">
+                            <img src="img/testi-thumb-2.png" class="" alt="">
+                            <div class="flex flex-col text-gray-500 mt-3">
+                                <h3 class="text-xl font-medium ">Khan Kamrul</h3>
+                                <span>Consultant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="flex flex-col  p-3">
+                        <div class="flex flex-row justify-between">
+                            <div>
+                                <h3 class="text-xl font-medium text-blue-500">Great Quality</h3>
+                            </div>
+    
+                            <div>
+                                <h3 class="font-medium text-gray-400 text-3xl"><i class="fa-solid fa-quote-right"></i></h3>
+                            </div>
+                        </div>
+    
+                        <div class="text-gray-500">
+                            Without JobHunt i’d be homeless, they found me a job and got me sorted out quickly with everything! Can’t quite… The Mitech team works really hard to ensure high level of quality.
+                        </div>
+    
+                        <div class="mt-12 flex gap-4">
+                            <img src="img/testi-thumb-3.png" class="" alt="">
+                            <div class="flex flex-col text-gray-500 mt-3">
+                                <h3 class="text-xl font-medium ">Khan Kamrul</h3>
+                                <span>Consultant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+
+    <!-- Brand -->
+    <div class="container mx-auto swiper bandSwiper">
+        <div class="py-2 swiper-wrapper">
+            
+            <div class="swiper-slide">
+                <img src="img/1-4 (1).png" class="w-full p-10" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/1-1 (1).png" class="w-full p-10" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/1-6 (1).png" class="w-full p-10" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/1-7.png" class="w-full p-10" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/1-5 (1).png" class="w-full p-10" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/1-4 (1).png" class="w-full p-10" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/1-1 (1).png" class="w-full p-10" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/1-6 (1).png" class="w-full p-10" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/1-7.png" class="w-full p-10" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/1-5 (1).png" class="w-full p-10" alt="">
+            </div>
+
+            <!-- <div class="swiper-slide">
+                <img src="img/1-6 (1).png" class="" alt="">
+            </div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- MIllions of Jobs desc -->
+    <div class="p-12">
+    <div href="#" class="flex flex-col  bg-white lg:flex-row lg:max-w-full">
+        <img class="object-cover w-full h-96 rounded-t-lg lg:h-auto lg:w-2/4 md:rounded-none md:rounded-l-lg" src="img/image-2.jpg" alt="">
+
+        
+        <div class="flex flex-col mt-14 lg:mt-0 lg:ml-10">
+            <h5 class="mb-2 text-4xl font-bold tracking-tight text-gray-700 dark:text-white">Millions of Jobs. Find the one that suits you.</h5>
+            <p class="lg:w-96 mt-3 font-normal text-gray-700 dark:text-gray-400">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide.</p>
+            <p class="mt-5 text-gray-700"><i class="fa-solid fa-check"></i>&nbsp Bring to the table win-win survival</p>
+            <p class="mt-5 text-gray-700"><i class="fa-solid fa-check"></i>&nbsp Capitalize on low hanging fruit to identify</p>
+            <p class="mt-5 text-gray-700"><i class="fa-solid fa-check"></i>&nbsp But I must explain to you how all this</p>
+            <a class="cursor-pointer mt-20 text-center font-medium text-gray-100 rounded-md hover:bg-orange-600 bg-orange-500 p-3 w-36">Get Started</a>
+            
+        </div>
+        
+    </div>
+    </div>
+
+    <!-- Counter Experienced -->
+    <div class="grid grid-cols-1 md:grid-cols-3">
+        <div class="counter mt-10 p-10 text-center flex flex-col justify-center">
+            <h3 class="text-5xl font-medium text-gray-800" id="num1"></h3>
+            <h3 class="text-md mt-4 font-normal text-gray-500 lowercase">4 Million Daily Active Users</h3>
+        </div>
+    
+        <div class="counter mt-10 p-10  text-center flex flex-col justify-center">
+            <h3 class="text-5xl font-medium text-gray-800" id="num2"></h3>
+            <h3 class="text-md mt-4 font-normal text-gray-500 lowercase">over 12k open job position</h3>
+        </div>
+    
+        <div class="counter mt-10 p-10 flex flex-col justify-center text-center">
+            <h3 class="text-5xl font-medium text-gray-800" id="num3"></h3>
+            <h3 class="text-md mt-4 font-normal text-gray-500 lowercase">over 20 million stories shared</h3>
+        </div>
+    </div>
+
+    <!-- Recent News Article -->
+    <div class="testimonial pb-16 bg-gray-100 mt-20">
+        <div class="text-center py-10 pt-24  p-1">
+            <h3 class="font-medium text-gray-900">Recent News Articles</h3>
+            <span class="text-gray-500 pt-3 text-sm">Fresh job related news content posted each day.</span>
+        </div>
+        
+        <div class="container mx-auto swiper mySwiper">
+            <div class="mb-16 swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <div class=" p-3 w-full bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div class="overflow-hidden rounded-lg">
+                            <a href="#" class="">
+                                <img class="w-full hover:scale-110 duration-700 hover_zoom" src="img/news-1.jpg" alt="" />
+                            </a>
+                        </div>
+                        
+                        <div class="p-5">
+                            <div class="flex flex-row text-gray-600">
+                                <a href="">August 31, 2021</a>
+                                <a href="" class="ml-10">12 Comment</a>
+                            </div>
+
+                            <a href="#" class="">
+                                <h5 class="mb-2 hover:text-blue-500 duration-500 pt-5 text-lg font-medium tracking-tight text-gray-900 dark:text-white">Attract Sales And Profits</h5>
+                            </a>
+                            <p class="text-sm mb-6 font-normal text-gray-700 dark:text-gray-400">A job ravenously while Far much that one rank beheld after outside....</p>
+                            <a href="#" class="read_news inline-flex items-center py-2 hover:text-blue-700 text-sm font-medium text-center text-blue-500 rounded-lg">
+                                Read more
+                                <svg class="ml-2 -mr-1 w-4 h-4 svg_news" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="swiper-slide">
+                    <div class=" p-3 w-full bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div class="overflow-hidden rounded-lg">
+                            <a href="#" class="">
+                                <img class="w-full hover:scale-110 duration-700 hover_zoom" src="img/news-2.jpg" alt="" />
+                            </a>
+                        </div>
+                        
+                        <div class="p-5">
+                            <div class="flex flex-row text-gray-600">
+                                <a href="">August 31, 2021</a>
+                                <a href="" class="ml-10">12 Comment</a>
+                            </div>
+
+                            <a href="#" class="">
+                                <h5 class="mb-2 hover:text-blue-500 duration-500 pt-5 text-lg font-medium tracking-tight text-gray-900 dark:text-white">Attract Sales And Profits</h5>
+                            </a>
+                            <p class="text-sm mb-6 font-normal text-gray-700 dark:text-gray-400">A job ravenously while Far much that one rank beheld after outside....</p>
+                            <a href="#" class="read_news inline-flex items-center py-2 hover:text-blue-700 text-sm font-medium text-center text-blue-500 rounded-lg">
+                                Read more
+                                <svg class="ml-2 -mr-1 w-4 h-4 svg_news" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class=" p-3 w-full bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div class="overflow-hidden rounded-lg">
+                            <a href="#" class="">
+                                <img class="w-full hover:scale-110 duration-700 hover_zoom" src="img/news-3.jpg" alt="" />
+                            </a>
+                        </div>
+                        
+                        <div class="p-5">
+                            <div class="flex flex-row text-gray-600">
+                                <a href="">August 31, 2021</a>
+                                <a href="" class="ml-10">12 Comment</a>
+                            </div>
+
+                            <a href="#" class="">
+                                <h5 class="mb-2 hover:text-blue-500 duration-500 pt-5 text-lg font-medium tracking-tight text-gray-900 dark:text-white">Attract Sales And Profits</h5>
+                            </a>
+                            <p class="text-sm mb-6 font-normal text-gray-700 dark:text-gray-400">A job ravenously while Far much that one rank beheld after outside....</p>
+                            <a href="#" class="read_news inline-flex items-center py-2 hover:text-blue-700 text-sm font-medium text-center text-blue-500 rounded-lg">
+                                Read more
+                                <svg class="ml-2 -mr-1 w-4 h-4 svg_news" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class=" p-3 w-full bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div class="overflow-hidden rounded-lg">
+                            <a href="#" class="">
+                                <img class="w-full hover:scale-110 duration-700 hover_zoom" src="img/news-2.jpg" alt="" />
+                            </a>
+                        </div>
+                        
+                        <div class="p-5">
+                            <div class="flex flex-row text-gray-600">
+                                <a href="">August 31, 2021</a>
+                                <a href="" class="ml-10">12 Comment</a>
+                            </div>
+
+                            <a href="#" class="">
+                                <h5 class="mb-2 hover:text-blue-500 duration-500 pt-5 text-lg font-medium tracking-tight text-gray-900 dark:text-white">Attract Sales And Profits</h5>
+                            </a>
+                            <p class="text-sm mb-6 font-normal text-gray-700 dark:text-gray-400">A job ravenously while Far much that one rank beheld after outside....</p>
+                            <a href="#" class="read_news inline-flex items-center py-2 hover:text-blue-700 text-sm font-medium text-center text-blue-500 rounded-lg">
+                                Read more
+                                <svg class="ml-2 -mr-1 w-4 h-4 svg_news" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+    
+                
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+
+    <!-- Download & Enjoy -->
+    <div class="app_section">
+        <div class="auto_container">
+            <div class="grid grid-cols-1 text-center md:text-left md:grid-cols-2 ">
+                <!-- Image grid -->
+                <div class="col-span-1 relative">
+                    <div class="bg_shape"></div>   
+                    <figure class="relative image">
+                        <img src="img/mobile-app.png" alt="">
+                    </figure>
+                </div> 
+                <!-- Download Grid -->
+                 <div class="col-span-1 flex flex-col">
+                    <div class="inner_column">
+                        <div class="sec_title">
+                            <span class="uppercase font-medium text-blue-500 md:text-md lg:text-lg leading-2">Download & Enjoy</span>
+                            <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-600">Get the Superio Job Search App</h3>
+                            <p class="mt-4 text-gray-500 text-sm">Search through millions of jobs and find the right fit. Simply swipe right to apply.</p>
+                            
+                            <div class="flex flex-col items-center md:flex-row mt-10 gap-2 cursor-pointer	">
+                               <img src="img/apple.png" alt="">
+                               <img src="img/google.png" alt="">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Recruiting -->
+   <!-- <div class="rec_section">
+        <div class="rec_bg relative rounded-md">
+            <div class="">
+                <div class="">
+                    <div class="text">
+                        <h3 class="text-2xl font-medium md:text-3xl lg:text-4xl text-gray-900 mb-4">Recruiting?</h3>
+                        <span class="mt-4 text-gray-500 text-sm">Advertise your jobs to millions of monthly users and search 15.8 million CVs in our database.</span>
+                    </div>
+
+                    <a href="" class="text-white text-center rounded-md p-3 font-medium cursor-pointer w-44 bg-blue-600 mt-5">Start Recruiting Now</a>
+                    
+                </div>
+
+                <div class="rec_image">
+                    
+                </div>
+            </div>
+        </div>
+   </div> -->
+
+   <!-- footer -->
+   <div class="footer">
+    <div class="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-6">
+        <div class="col-span-1 md:col-span-2 lg:col-span-1">
+            <div class="flex flex-col">
+                <img src="img/logo.svg" class="w-40" alt="">
+                <h3 class="font-medium text-gray-600 text-lg mt-5">Call us</h3>
+                <h3 class="font-medium text-blue-600 text-lg">123 456 7890</h3>
+    
+                <div class="text-gray-500 mt-4 font-medium lg:font-normal lg:text-sm">
+                    <p>329 Queensberry Street, North Melbourne VIC</p>
+                    <p>3051, Australia.</p>
+                    <a href="">support@superio.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-span-1">
+            <div class="flex flex-col">
+                <h3 class="font-medium text-gray-600 text-lg mt-5">For Candidates</h3>
+                
+    
+                <div class="text-gray-500 list flex flex-col mt-6 text-sm font-normal gap-4">
+                    <ul>
+                        <li><a href="">Browse Jobs</a></li>
+                        <li> <a href="">Browse Categories</a></li>
+                        <li><a href="">Candidate Dashboard</a></li>
+                        <li> <a href="">Job Alerts</a></li>
+                        <li> <a href="">My Bookmarks</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-span-1">
+            <div class="flex flex-col">
+                <h3 class="font-medium text-gray-600 text-lg mt-5">For Employers</h3>
+                
+    
+                <div class="text-gray-500 list flex flex-col mt-6 text-sm font-normal gap-4">
+                    <ul>
+                        <li><a href="">Browse Candidates</a></li>
+                        <li> <a href="">Employer Dashboard</a></li>
+                        <li><a href="">Add Job</a></li>
+                        <li> <a href="">Job Packages</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-span-1">
+            <div class="flex flex-col">
+                <h3 class="font-medium text-gray-600 text-lg mt-5">About Us</h3>
+                
+    
+                <div class="text-gray-500 list flex flex-col mt-6 text-sm font-normal gap-4">
+                    <ul>
+                        <li><a href="">Job Page</a></li>
+                        <li> <a href="">Job Page Alternative</a></li>
+                        <li><a href="">Resume Page</a></li>
+                        <li> <a href="">Blog</a></li>
+                        <li> <a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-span-1">
+            <div class="flex flex-col">
+                <h3 class="font-medium text-gray-600 text-lg mt-5">Helpful Resources</h3>
+                
+    
+                <div class="text-gray-500 list flex flex-col mt-6 text-sm font-normal gap-4">
+                    <ul>
+                        <li><a href="">Site Map</a></li>
+                        <li> <a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy Center</a></li>
+                        <li> <a href="">Security Center</a></li>
+                        <li> <a href="">Accessibility Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="flex flex-col border-t py-8 items-center gap-3">
+        <div class="flex foot_social justify-center text-gray-500 items-center gap-7">
+            <a href="" class=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="" class=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    
+        <div>
+            <span class="text-sm text-gray-500">© 2022 Arat. All Right Reserved.</span>
+        </div>
+    </div>
+    
+   </div>
+
+
+    
+      
+
+
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var count=0;
+       
+        var counter=setInterval(counts,750);
+ 
+        function counts(){
+         count++;
+         var num1=document.getElementById("num1").innerHTML=count+'M';
+ 
+         if(count==4){
+             clearInterval(counter);
+         }
+        }
+     // for Happy Patient
+        var count2=0;
+       
+        var patient=setInterval(patient,250);
+ 
+        function patient(){
+         count2++;
+         var num2=document.getElementById("num2").innerHTML=count2+'K';
+ 
+         if(count2==12){
+             clearInterval(patient);
+         }
+        }
+     
+        // for doctor
+        var count3=0;
+       
+        var doctor=setInterval(doctor,160);
+ 
+        function doctor(){
+         count3++;
+         var num3=document.getElementById("num3").innerHTML=count3+'M';
+ 
+         if(count3==20){
+             clearInterval(doctor);
+         }
+        }  
+     </script>
+     <!-- Initialize Swiper -->
+     <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+           },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 16,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 25,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 35,
+            },
+          },
+        });
+      </script>
+
+<script>
+    var swiper = new Swiper(".bandSwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+       },
+      breakpoints: {
+        450: {
+          slidesPerView: 2,
+          spaceBetween: 16,
+        },
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 16,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 25,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 35,
+        },
+      },
+    });
+  </script>
     <script src="js/main.js"></script>
 </body>
 </html>
