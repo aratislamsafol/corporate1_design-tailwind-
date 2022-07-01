@@ -281,6 +281,71 @@
 
     /* Footer */
       
+/* Recruiting Hero */
+.wrapper {
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.recruite-area {
+    background: rgba(25, 103, 210, 0.07);
+    border-radius: 15px;
+    display: block;
+    overflow: hidden;
+}
+
+.part-left {
+    float: left;
+    width: 70%;
+}
+.part-right {
+    display: block;
+    overflow: hidden;
+    float: right;
+    width: 30%;
+    background: url(../img/image-1.png) no-repeat;
+    background-position: 110% 0;
+    padding: 150px 0;
+}
+
+.recrute-hero {
+    padding: 40px 60px;
+}
+
+.recrute-hero h2 {
+    font-size: 30px;
+    line-height: 1.2em;
+    color: #202124;
+    font-weight: 500;
+}
+
+.recrute-hero p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #696969;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.recrute-hero button {
+    text-align: center;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #1967D2;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 8px;
+    font-weight: 400;
+    padding: 18px 35px 15px 35px;
+
+}
+
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+
 
     .list li {
     position: relative;
